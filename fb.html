@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="fb.css" type="text/css">
+</head>
+<body>
+   <div class="container">
+
+    <div class="header">
+      
+     <div class="logo">
+       <a class="logo-text" href="fb.html">facebook</a>
+     </div>
+
+     <div class="login"> 
+
+        <form action="">
+        <table class="login-controls">
+
+            <tr>
+                <td> <label class="login-label">Email or Mobile</label></td>
+                <td> <label class="login-label">password</label></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input class="submit" type="submit" value="login"></td>
+            </tr>
+            <tr>
+                <td></td>
+               <td><a class="forgotten" href="fb.html">Forgotten account?</a></td> 
+
+            </tr>
+            
+        </table>
+        </form>
+
+     </div>
+
+    </div>
+
+    <div class="main-body">
+
+      <div class="left-section">
+        <p class="para">Facebook helps you connect and share with the <br>people  in your life</p>
+        <img class="image" src="fb.html" alt="world wide network connection are gets without intention">
+      </div>
+
+      <div class="right-section">
+        <h1>Create an account</h1>
+        <p class="subtitle">It's quick and easy</p>
+        <form action="" class="signup-form" id="signup-form">
+          <div class="form-row">
+            <input name="fname" type="text" placeholder="First name" class="form-input half-width">
+            <input name="sname" type="text" placeholder="Surname" class="form-input half-width">
+          </div>
+
+          <div class="form-row">
+            <input name="email-address" type="text" placeholder="Mobile number or email address" class="form-input full-width">
+          </div>
+
+          <div class="form-row">
+            <input name="password" type="password" placeholder="New password" class="form-input full-width">
+          </div>
+
+          <div class="form-row">
+            <label class="form-label">Birthday</label>
+            <div class="select-group">
+              <select name="day" class="form-select">
+                <option value="">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <select name="month" class="form-select">
+                <option value="">Month</option>
+                <option value="1">Jan</option>
+                <option value="2">Feb</option>
+                <option value="3">Mar</option>
+                <option value="4">Apr</option>
+                <option value="5">May</option>
+                <option value="6">Jun</option>
+                <option value="7">Jul</option>
+                <option value="8">Aug</option>
+                <option value="9">Sep</option>
+                <option value="10">Oct</option>
+              </select>
+              <select name="year" class="form-select">
+                <option value="">Year</option>
+                <option value="2020">2020</option>
+                <option value="2010">2010</option>
+                <option value="2000">2000</option>
+                <option value="1990">1990</option>
+                <option value="1980">1980</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label class="form-label">Gender</label>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input type="radio" name="gender" value="male"> Male
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="gender" value="female"> Female
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="gender" value="other"> Other
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" class="submit signup-btn">Sign Up</button>
+        </form>
+        <p class="page-link"><a class="forgotten" href="#">Create a page for a celebrity</a></p>
+      </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
