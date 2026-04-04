@@ -1,8 +1,8 @@
-hi whats upp
+hi what's up
  hello
 <<<<<<< HEAD
 =======
 >>>>>>> future
 =======
-hy gyzz
+Hy Guyz
 
