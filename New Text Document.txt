@@ -1,9 +1,8 @@
 hi whats upp
  hello
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> future
 =======
-hy WhatsUp 
->>>>>>> future
+hy gyzz
+
