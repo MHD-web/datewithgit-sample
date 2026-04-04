@@ -1,3 +1,5 @@
 hi whats upp
  hello
-this is mhd
+<<<<<<< HEAD
+=======
+>>>>>>> future
